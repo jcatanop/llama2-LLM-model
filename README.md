@@ -27,14 +27,14 @@ Primero clone el repositorio:
 
 
 ```
-$ git clone https://github.com/jcatanop/llama2-LLM-model.git
-$ cd llama2-LLM-model
+git clone https://github.com/jcatanop/llama2-LLM-model.git
+cd llama2-LLM-model
 ```
 
-Descargue el modelo llama2 llama-2-7b-chat.ggmlv3.q8_0.bin usando el siguiente link:
+Descargue el modelo **llama-2-7b-chat.ggmlv3.q8_0.bin** usando el siguiente link:
 
 ```
-$ wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q8_0.bin
+wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q8_0.bin
 ```
 
 En la carpeta actual encontrará los siguientes elementos: 
@@ -48,7 +48,7 @@ En la carpeta actual encontrará los siguientes elementos:
 Ahora podemos probar si esta funcionando:
 
 ```
-$ python model.py
+python model.py
 ```
 
 Verá el siguiente texto:
@@ -60,10 +60,10 @@ Ask something about pharmaceutical issues:
 Digite la siguiente pregunta:
 
 ```
-what is pharma?
+what is farma?
 ```
 
-Dependiendo de las características del computador, la respuesta puede tardar de 1 minuto o mas.
+Dependiendo de las características del computador, la respuesta puede tardar 1 minuto o mas.
 
 Verá algo similar a :
 
@@ -80,8 +80,9 @@ Response time: 69.11 sec
 
 ## ENTRENAR EL MODELO
 
-Crear una carpeta con el nombre *data* en la carpeta raiz del proyecto.
-Copie a la carpeta *data* los documentos PDF que contienen información para entrenar el modelo. Pueden ser libros o articulos.
+Crear una carpeta con el nombre **data** en la carpeta raiz del proyecto.
+
+Copie a la carpeta **data** los documentos PDF que contienen información para entrenar el modelo. Pueden ser libros o articulos.
 
 Luego ejecute la siguiente orden:
 
