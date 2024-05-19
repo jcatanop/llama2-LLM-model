@@ -1,2 +1,4 @@
 data/*.pdf
 llama-2-7b-chat.ggmlv3.q8_0.bin
+vectorstores/db_faiss/*.faiss
+vectorstores/db_faiss/*.pkl
