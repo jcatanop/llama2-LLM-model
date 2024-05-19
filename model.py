@@ -55,7 +55,7 @@ def final_result(query):
     print(response['result'])
     print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ')
 
-print("\nAsk something about pharmaceutical issues:")
+print("\nAsk something :")
 query = input()
 print("\n")
 TimeStamp0 = time.time()
